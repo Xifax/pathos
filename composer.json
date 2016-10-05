@@ -1,0 +1,22 @@
+{
+    "name": "xifax/pathos",
+    "description": "Funny readable url name generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artiom Basenko",
+            "email": "demi.log@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pathos\\": "src"
+        }
+    }
+}
