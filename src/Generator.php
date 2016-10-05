@@ -15,7 +15,7 @@ class Generator
      */
     public static function url($prefixAdjectives = 3) {
         // Load source texts
-        $adjectives = file(__DIR__ . "/assets/adjectives");
+        $adjectives = file(__DIR__ . '/assets/adjectives');
         $monsters = file(__DIR__ . '/assets/monsters');
 
         // Get random monster
@@ -29,7 +29,6 @@ class Generator
         foreach($keys as $key) {
             // Trim and capitalize adjective
             $template .= ucfirst(rtrim($adjectives[$key]));
-
         }
 
         return $template . $monster;

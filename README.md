@@ -1,6 +1,6 @@
 # Pathos
 
-Generates funny url from strings provided in `src/assets`
+Generates funny urls from strings provided in `src/assets`
  
 ## Installation
 
